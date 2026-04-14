@@ -6,8 +6,8 @@ import { UpdateCourseDto } from './dto/update-course.dto';
 @Injectable()
 export class CourseService {
     private courses: Course[] = [
-    { id: 1, name: 'OOP 1', code: 'CS101', instructor: 'Mohsin ', credits: 3, description: 'Java OOP Concepts' },
-    { id: 2, name: 'OOP 2', code: 'CS102', instructor: 'Jamal', credits: 3, description: 'C# OOP Concepts' },
+    { id: 1, name: 'OOP 1', code: 'CS101', instructor: ' Md Yeahyea ', credits: 3, description: 'Basic web technology OOP Concepts' },
+    { id: 2, name: 'OOP 2', code: 'CS102', instructor: 'Jam', credits: 3, description: 'Advanced web technology OOP Concepts' },
   ];
 
   getAllCourses(): Course[] {

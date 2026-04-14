@@ -3,8 +3,8 @@ import { Injectable, NotFoundException } from '@nestjs/common';
 @Injectable()
 export class CourseService {
   private courses = [
-    { id: 1, name: 'OOP 1', description: 'Java OOP Concepts' },
-    { id: 2, name: 'OOP 2', description: 'C# OOP Concepts' },
+    { id: 1, name: 'OOP 1', description: 'Introduction to Python' },
+    { id: 2, name: 'OOP 2', description: 'Advanced Python Concepts' },
   ];
 
   //Get

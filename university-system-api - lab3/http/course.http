@@ -7,9 +7,9 @@ Content-Type: application/json
 {
     "name": "OOP 3",
     "code": "CS103",
-    "instructor": "Hira",
+    "instructor": "Sadia",
     "credits": 3,
-    "description": "Advanced OOP Concepts"
+    "description": "Advanced NestJS OOP Concepts"
 }
 
 
