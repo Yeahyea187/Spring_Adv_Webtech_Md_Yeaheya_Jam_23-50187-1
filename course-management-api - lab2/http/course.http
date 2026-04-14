@@ -9,7 +9,7 @@ Content-Type: application/json
 {
     "name": "Introduction to NestJS",
     "code": "CS101",
-    "instructor": "John Doe",
+    "instructor": "Steve Johnson",
     "credits": 3,
     "description": "Learn the basics of NestJS framework."
 }
@@ -20,7 +20,7 @@ Content-Type: application/json
 {
     "name": "Advanced NestJS",
     "code": "CS102",
-    "instructor": "Jane Smith",
+    "instructor": "Robert Brown",
     "credits": 3,
     "description": "Deep dive into NestJS features and best practices."
 }
@@ -32,7 +32,7 @@ Content-Type: application/json
     "name": "Advanced dotnet"
 }
 
-DELETE http://localhost:3000/course/1
+DELETE http://localhost:3000/course/3
 
 POST http://localhost:3000/course/1/upload
 Content-Type: multipart/form-data
@@ -45,17 +45,17 @@ Content-Type: application/json
 {
     "name": "Advanced NestJS",
     "code": "CS102",
-    "instructor": "Jane Smith",
+    "instructor": "Steven Abror",
     "credits": 3,
     "description": "Deep dive into NestJS features and best practices.",
-    "material": ""
+    
 }
 
 POST http://localhost:3000/course
 Content-Type: application/json
 {
     "name": "Advanced NestJS",
-    "instructor": "Jane Smith",
+    "instructor": "Dwine Smith",
     "description": "Deep dive into NestJS features and best practices.",
 }
 

@@ -6,8 +6,8 @@ import { Course } from './interfaces/course.interface';
 @Injectable()
 export class CourseService {
   private courses: Course[] = [
-    { id: 1, name: 'OOP 1', code: 'CS101', instructor: 'Mohsin ', credits: 3, description: 'Java OOP Concepts' },
-    { id: 2, name: 'OOP 2', code: 'CS102', instructor: 'Jamal', credits: 3, description: 'C# OOP Concepts' },
+    { id: 1, name: 'OOP 1', code: 'CS101', instructor: 'Yehayea Jam ', credits: 3, description: 'Basic web technologies OOP Concepts' },
+    { id: 2, name: 'OOP 2', code: 'CS102', instructor: 'Sadia', credits: 3, description: 'Advanced web technologies OOP Concepts' },
   ];
 
   // GET ALL
